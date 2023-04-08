@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@use "./node_modules/bootstrap/scss/bootstrap" with (
+    $body-bg: #f5f6fa,
+    $primary: #009ef7,
+    $success: #50cd89,
+    $danger: #f1416c,
+    $warning: #ffc700,
+    $info: #7239ea
+);
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+
+/* Importing site SCSS. */
+@import "assets/site";
