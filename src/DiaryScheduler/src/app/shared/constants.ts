@@ -1,10 +1,10 @@
-import { HttpHeaders } from "@angular/common/http";
-import { environment } from "environments/environments";
+import { HttpHeaders } from '@angular/common/http';
+import { environment } from 'environments/environments';
 
 export const eventManagementApiBaseUrl = environment.eventManagementApiUrl;
 
 export const urlPaths = {
-
+    eventManagementUrl: `${environment.eventManagementApiUrl}/event-management`
 };
 
 export const httpOptions = {
